@@ -1,0 +1,19 @@
+body {
+    background-color: #0D1117;
+}
+
+#form1 {
+    position: absolute;
+    width: 681px;
+    height: 525px;
+    left: 686px;
+    top: 200px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #C9D1D9;
+}

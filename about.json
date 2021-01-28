@@ -1,0 +1,60 @@
+{
+    "client": {
+        "host": ""
+    },
+    "server": {
+        "current_time": 11,
+        "services " : [{
+            "name" : "meteo",
+            "widgets" : [{
+                "name" : "city_temperature",
+                "description" : "get city temperature + what the weather feels like",
+                "params" : [{
+                    "name" : "address",
+                    "type" : "string"
+                }]
+            },{
+                "name" : "city_air_quality",
+                "description" : "get city air quality",
+                "params" : [{
+                    "name" : "address",
+                    "type" : "string"
+                }]
+            }]
+        },{
+            "name" : "Corona",
+            "widgets":[{
+                "name" : "country_corona",
+                "description" : "get country corona dead and recovered",
+                "params" : [{
+                    "name" : "country",
+                    "type" : "string"
+                }]
+                },{
+                "name" : "country_corona_test",
+                "description" : "get country corona number of test",
+                "params" : [{
+                    "name" : "country",
+                    "type" : "string"
+                }]
+            }]
+        }, {
+            "name" : "Dictionary",
+            "widgets":[{
+                "name" : "word_definition",
+                "description" : "get definition of a word",
+                "params" : [{
+                    "name" : "word",
+                    "type" : "string"
+                }]
+            },{
+                "name" : "word_pronunciation",
+                "description" : "get pronunciation of a word",
+                "params" : [{
+                    "name" : "word",
+                    "type" : "string"
+                }] 
+            }]
+        }]
+    }
+}

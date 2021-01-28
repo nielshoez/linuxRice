@@ -1,0 +1,50 @@
+{
+  "name": "linuxrice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "postcss public/css/tailwind.css -o public/css/style.css; node app.js",
+    "build:css": "postcss public/css/tailwind.css -o public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "alphavantage": "^2.2.0",
+    "autoprefixer": "^10.1.0",
+    "bcrypt": "^5.0.0",
+    "connect-flash": "^0.1.1",
+    "core-util-is": "^1.0.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "request": "^2.88.2",
+    "swiper": "^6.4.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

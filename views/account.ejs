@@ -1,0 +1,20 @@
+<%- include ('./partials/header') %>
+<%- include ('./partials/mainNav') %>
+<%- include ('./partials/profileRectangle') %>  
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/profile.css" />
+
+<a id="pubProf">Account</a>
+<a id="separator"></a>
+<p id="P1">
+    Modify your account informations <br><br>
+
+    <form id="form1" action="/settings/account" method="POST">
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="<%= user.name%>" class="mt-2 w-full bg-gray-900 px-4 py-3 rounded-md appearance-none border border-gray-600  transition duration-200 ease-in-out focus:bg-gray-700 min-w-0" type="text"><br><br>
+        <label for="email">Email</label>
+        <input id="email" name="email" placeholder="<%= user.email%>" class="mt-2 w-full bg-gray-900 px-4 py-3 rounded-md appearance-none border border-gray-600  transition duration-200 ease-in-out focus:bg-gray-700 min-w-0" type="text"><br><br>
+
+        <button type="submit" class="btn py-2 px-3 bg-green-500 hover:bg-green-600 focus:ring-2 ring-green-300 focus:outline-none text-white rounded">Update profile</button>
+    </form>
+</p>

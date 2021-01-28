@@ -1,0 +1,7 @@
+{
+    "scriptZsh" : "#!/bin/bash \nsudo apt install zsh curl git -y \nexport RUNZSH=no \nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\n",
+    "scriptAutojump": "sudo apt-get install python-is-python3\ngit clone git://github.com/wting/autojump.git ~/.tmp\ncd ~/.tmp\n./install.py\nsed -i 's/\bplugins=(git\b/& autojump/' ~/.zshrc\nsource ~/.zshrc\n",
+    "scriptChangeThemeFino":"sed -i 's/ZSH_THEME=\"robbyrussel\"/ZSH_THEME=\"fino\"/g' ~/.zshrc\nsource ~/.zshrc\n",
+    "scriptChangeThemeGozilla":"sed -i 's/ZSH_THEME=\"robbyrussel\"/ZSH_THEME=\"gozilla\"/g' ~/.zshrc\nsource ~/.zshrc\n",
+    "scriptChangeThemeAf-magic":"sed -i 's/ZSH_THEME=\"robbyrussel\"/ZSH_THEME=\"af-magic\"/g' ~/.zshrc\nsource ~/.zshrc\n"
+}

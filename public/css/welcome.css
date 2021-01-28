@@ -1,0 +1,54 @@
+body {
+    background-color: #0D1117;
+}
+
+#title {
+    position: absolute;
+    width: 550px;
+    height: 156px;
+    left: 200px;
+    top: 163px;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+#subtitle {
+    position: absolute;
+    width: 513px;
+    height: 59px;
+    left: 200px;
+    top: 349px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#text {
+    position: absolute;
+    width: 450px;
+    height: 218px;
+    left: 200px;
+    top: 452px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#buttonContinue {
+    position: absolute;
+    width: 247px;
+    height: 26px;
+    left: 200px;
+    top: 657px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#img {
+    position: absolute;
+    width: 900px;
+    height: 545.14px;
+    left: 952px;
+    top: 155px;
+
+    background: url("../assets/linux_rice.png");
+    border-radius: 10px;
+}

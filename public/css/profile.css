@@ -1,0 +1,61 @@
+body {
+    background-color: #0D1117;
+}
+
+#pubProf {
+    position: absolute;
+    width: 206px;
+    height: 45px;
+    left: 687px;
+    top: 92px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #C9D1D9;
+}
+
+#separator {
+    position: absolute;
+    width: 751.5px;
+    height: 0px;
+    left: 686px;
+    top: 130.5px;
+
+    border: 1px solid #21262D;
+}
+
+#P1 {
+    position: absolute;
+    width: 681px;
+    height: 525px;
+    left: 686px;
+    top: 155px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #C9D1D9;
+}
+
+#form1 {
+    position: absolute;
+    width: 681px;
+    height: 525px;
+    left: 686px;
+    top: 200px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #C9D1D9;
+}

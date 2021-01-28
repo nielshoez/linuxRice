@@ -1,0 +1,11 @@
+#img {
+    position: absolute;
+    height: 39px;
+    width: 39px;
+    left: 1826px;
+    top: 15px;
+    border-radius: 0px;
+    
+
+    background: url("../assets/Ellipse1.png");
+}

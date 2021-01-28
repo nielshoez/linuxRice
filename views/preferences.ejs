@@ -1,0 +1,17 @@
+<%- include ('./partials/header') %>
+<%- include ('./partials/mainNav') %>
+<%- include ('./partials/profileRectangle') %>  
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/profile.css" />
+
+<a id="pubProf">Preferences</a>
+<a id="separator"></a>
+<p id="P1">Your preferences
+    <br><br>
+
+    <form id="form1" action="/settings/preferences" method="POST">
+        <input type="hidden" id="delete" name="delete" class="mt-2 w-full bg-gray-900 px-4 py-3 rounded-md appearance-none border border-gray-600  transition duration-200 ease-in-out focus:bg-gray-700 min-w-0" type="text"><br><br>
+
+        <button type="submit" class="btn py-2 px-3 bg-red-500 hover:bg-red-600 focus:ring-2 ring-red-300 focus:outline-none text-white rounded">Delete account</button>
+    </form>
+</p>
